@@ -29,3 +29,6 @@ Menghapus PD yang masih dipakai PNS/KDO akan ditolak database (foreign key).
 4. Jalankan server:
    ```bash
    D:\xampp\php\php.exe spark serve
+
+## Import Collection Postman
+1. upload/import file bpd.postman_collection

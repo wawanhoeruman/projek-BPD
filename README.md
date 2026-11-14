@@ -25,7 +25,7 @@ Menghapus PD yang masih dipakai PNS/KDO akan ditolak database (foreign key).
 ## Cara Jalanin (Manual Setup)
 1. Clone repo ini
 2. Import database: file `database-bpd.sql` ke phpMyAdmin
-3. Copy `.env.example` jadi `.env` jika ada, sesuaikan database
+3. udpdate /config/database, sesuaikan database
 4. Jalankan server:
    ```bash
    D:\xampp\php\php.exe spark serve

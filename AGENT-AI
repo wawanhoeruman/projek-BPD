@@ -1,0 +1,37 @@
+# Penggunaan AI - Pengakuan / Disclosure
+
+## Pernyataan
+Dalam pengerjaan Ujian Praktik Junior Programmer (JP-1) ini,
+saya MENGGUNAKAN bantuan AI sebagai asisten belajar / debugging.
+
+Saya TIDAK mengklaim mengerjakan tanpa bantuan AI.
+Saya TIDAK menyalin karya peserta lain.
+
+## AI yang Digunakan
+- Meta AI (via WhatsApp)
+
+## Bagian yang Dibantu AI
+1. Debugging error `PUT` dan `DELETE` di CodeIgniter 4
+   - Ditemukan penyebabnya: Body DELETE tidak perlu diisi, dan
+     error 500 karena foreign key constraint (PD masih dipakai PNS/KDO).
+2. Penjelasan konsep `PATCH` vs `PUT`
+   - PATCH hanya kirim 1 field, PUT kirim semua field.
+3. Pembuatan endpoint PATCH custom:
+   - `PATCH /api/kdo/{id}/status`
+   - `PATCH /api/pns/{id}/jabatan`
+   - `PATCH /api/pd/{id}/alamat`
+4. Penyusunan struktur dokumentasi `README.md` dan file ini.
+5. Saran urutan pengujian di Postman dan urutan demo.
+
+## Bagian yang Dikerjakan Sendiri
+- Perancangan database dan relasi antar entitas (KDO - PNS - PD).
+- Penulisan kode Controller, Model, dan Routes di CodeIgniter 4.
+- Pengujian manual semua endpoint di Postman (GET, POST, PUT, PATCH, DELETE).
+- Pengambilan screenshot bukti pengujian.
+- Export dump database (.sql).
+- Push dan pengelolaan repository Git.
+
+## Verifikasi
+Semua kode yang disarankan AI sudah saya baca, saya pahami,
+saya uji sendiri di Postman, dan saya perbaiki sendiri jika error.
+Keputusan akhir tetap ada di saya sebagai peserta.
